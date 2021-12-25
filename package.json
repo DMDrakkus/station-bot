@@ -1,0 +1,20 @@
+{
+  "name": "station-bot",
+  "version": "1.0.0",
+  "description": "This is a Discord bot developed for the Eve Echoes BLAP community. It is designed to store, update, and track stations and their owners by updating a Google Spreadsheet.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DMDrakkus",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/docs": "^0.2.0",
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
